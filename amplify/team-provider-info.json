@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vault-dev-d0998-authRole",
+      "UnauthRoleArn": "arn:aws:iam::290452190657:role/amplify-vault-dev-d0998-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::290452190657:role/amplify-vault-dev-d0998-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-vault-dev-d0998-deployment",
+      "UnauthRoleName": "amplify-vault-dev-d0998-unauthRole",
+      "StackName": "amplify-vault-dev-d0998",
+      "StackId": "arn:aws:cloudformation:ap-south-1:290452190657:stack/amplify-vault-dev-d0998/8e35b6e0-4f69-11ef-a793-02aefa75a9fb",
+      "AmplifyAppId": "d3osemmgbgofmw"
+    },
+    "categories": {
+      "auth": {
+        "vault80c00b67": {
+          "userPoolId": "ap-south-1_Hm0IC6Q7y",
+          "userPoolName": "VaultUserPool-dev",
+          "webClientId": "3r6miiginlmnbi11cc7gdeapdr",
+          "nativeClientId": "3r6miiginlmnbi11cc7gdeapdr",
+          "identityPoolId": "ap-south-1:ba842903-ec2f-421f-84b6-8b6b51070041",
+          "identityPoolName": "VaultIdentityPool-dev",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::290452190657:role/vault-VaultAuthRole-WZYIQMxgz0LH",
+          "authRoleName": "vault-VaultAuthRole-WZYIQMxgz0LH",
+          "unauthRoleArn": "arn:aws:iam::290452190657:role/vault-VaultUnauthRole-MyYZvXmZ4w3E",
+          "unauthRoleName": "vault-VaultUnauthRole-MyYZvXmZ4w3E"
+        }
+      }
+    }
+  }
+}

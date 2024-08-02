@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "vault80c00b67": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_vault80c00b67_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    },
+    "AMPLIFY_auth_vault80c00b67_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "vault80c00b67"
+        }
+      ]
+    }
+  }
+}
